@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+header, footer {
+    background-color: darkgoldenrod;
+    color: white;
+    display: grid;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.425);
+    align-items: center;
+}
+
+header {
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.329);
+}
+
+html {
+    display: table;
+    margin: 20px auto;
+    background-color: rgba(184, 135, 11, 0.199);
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer h3 {
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.titleRule {
+    width: 400px;
+    margin-left: 0;
+}
+
+#profilePic {
+    margin: 10px;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.603);
+}
+
+#lastUpdate {
+    margin: auto;
+    padding: 5px 0px;
+}
+
+#footerCaption {
+    margin: auto;
+    padding: 5px 0px;
+}

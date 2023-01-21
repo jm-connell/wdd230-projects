@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jon Connell - Chamber of Commerce Home">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Yakima Chamber of Commerce - Home</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="heading">
+            <img class="logo" src="images/yakimalogo.webp" alt="Chamber of Commerce Logo">
+            <div class="headerText">
+                <h1>Yakima Chamber of Commerce</h1>
+                <div class="headerDetails">
+                    <p id="headerDate"></p>
+                    <a class="facebookLink" href="https://www.facebook.com">Facebook</a>
+                    <a class="instagramLink" href="https://www.instagram.com">Instagram</a>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="baseNavigation">
+            <p class="menuButton"><a href="#" onclick="toggleMenu()">&#9776;</a></p>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discovery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="discoverMain">
+        <div class="gallery">
+            <h1>Discover Yakima</h1>
+            <figure>
+                <img src="images/discover-images/lookoutpoint.jpg" loading="lazy" alt="View of Yakima from Lookout Point">
+                <figcaption>View of West Valley suburbs from Lookout Point</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/discover-images/downtown-seating.jpg" loading="lazy" alt="Picture of outdoor seating in downtown Yakima">
+                <figcaption>Historical downtown Yakima has many exciting places to visit</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/discover-images/IMG_0304.JPG" loading="lazy" alt="View of Mt. Hood">
+                <figcaption>The Yakima Valley has a great view of many of Washington's mountains</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/discover-images/wvhs-front.jpg" loading="lazy" alt="Image of local highschool">
+                <figcaption>Yakima has two main public school districts, the West Valley and the Yakima school districts</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/discover-images/valley-view.jpg" loading="lazy" alt="Picture of rural outskirts of Yakima">
+                <figcaption>View from the hills on the outskirts of Yakima. The city can be seen in the distance.</figcaption>
+            </figure>
+
+            <div class="demographics">
+                <div class="racialComp">
+                    <h3>Racial Composition of Yakima</h3>
+                    <p>White: 69.5%</p>
+                    <p>Other: 18.02%</p>
+                    <p>Two or more races: 6.94%</p>
+                    <p>Black/African American: 1.81%</p>
+                    <p>Native American: 1.78%</p>
+                    <p>Native Hawaiian/Pacific Islander: 1.01%</p>
+                    <p>Asian: 0.99%</p>
+                </div>
+
+                <div class="otherDemo">
+                    <h3>Other Statistics</h3>
+                    <p>Land Area (mi<sup>2</sup>): 27.8 sq mi</p>
+                    <p>Density (mi<sup>2</sup>): 3,531.20 sq mi</p>
+                    <p>2022 Growth Rate: 0.60%</p>
+                    <p>Growth Since 2020: 1.22%</p>
+                    <p>Rank in State: 12th</p>
+                    <p>Rank in Country: 358th</p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footerInfo">
+            <img class="logo" src="images/yakimalogo.webp" alt="Chamber of Commerce Logo">
+
+            <div>
+                <h2>Yakima Chamber of Commerce</h2>
+                <p>10 N 9th Street</p>
+                <p>Yakima, WA</p>
+            </div>
+
+            <div>
+                <p>contact@yakimachamber.org</p>
+                <p>+1 (509) 965-7768</p>
+                <p>Time since last visit: <span class="lastVisitTime">N/A</span></p>
+            </div>
+        </div>
+
+        <div id="footerTextContainer">
+            <hr>
+            <p id="footerText"></p>
+        </div>
+    </footer>
+    
+    <script src="scripts/lesson04.js"></script>
+    <script src="scripts/localstorage.js"></script>
+</body>
+</html>

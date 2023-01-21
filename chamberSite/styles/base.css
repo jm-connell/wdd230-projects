@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;600&display=swap');
+
+html {
+    font-family: 'Inter Tight', sans-serif;
+}
+
+body {
+    background-color: #FFF0CE;
+    display: flex;
+    min-height: 100vh;
+    min-width: 402px;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.indexMain {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header {
+    background-color: #393548;
+    display: flex;
+}
+
+footer {
+    background-color: #393548;
+    margin-top: auto;
+    text-align: center;
+}
+
+header, footer {
+    color: white;
+}
+
+footer p {
+    padding: 0 0.75rem;
+}
+
+nav {
+    background-color: #FFF0CE;
+    color: black;
+    margin-left: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+section {
+    background-color: lightgray;
+    border: 1px solid rgba(128, 128, 128, 0.377);
+    margin: 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 2px;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #393548;
+}
+
+.navigation a:visited {
+    color: #393548;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #393548;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: auto;
+    position: absolute;
+    top: 9.3rem;
+    left: 1rem;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    text-align: left;
+    transition: 0.3s;
+    padding: 0.6rem 1.5rem;
+    width: 100%
+}
+
+.menuButton {
+    font-size: 1.25rem;
+    position: absolute;
+    top: 6.3rem;
+    left: 20.5rem;
+}
+
+.menuButton a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    border-radius: 2px;
+}
+
+.menuButton a:visited {
+    color: white;
+}
+
+.menuButton a:hover {
+    background-color: #FFF0CE;
+    color: #393548;
+}
+
+.logo {
+    width: 150px;
+}
+
+.headerText {
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.headerDetails a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.joinContainer {
+    display: none;
+}
+
+.footerAddress > * {
+    margin: auto;
+    padding: 0;
+}
+
+.instagramLink {
+    padding-left: 0.5rem;
+}
+
+.headerDetails a {
+    text-decoration: underline;
+    padding: 0.5rem 0.25rem;
+    border-radius: 2px;
+}
+
+.headerDetails a:hover {
+    background-color: #FFF0CE;
+    color: #393548;
+}
+
+.banner {
+    display: none;
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    border-radius: 0;
+    color: black;
+    text-align: center;
+}
+
+/* Styles for responsive class to make expanding menu */
+.responsive li {
+    display: block;
+}
+
+.responsive li a {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.75rem 1rem;
+    border-radius: 2px;
+    padding-right: 0;
+}
+
+.mainMargin {
+    margin-top: 2.2rem;
+}
+
+/* Styles for Main sections */
+.heroContainer {
+    padding: 0;
+    position: relative;
+    border: none;
+    background-color: #FFF0CE;
+}
+
+.heroContainer h2 {
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+    font-size: 1.7rem;
+    color: white;
+    text-shadow: 3px 3px rgb(0, 0, 0);
+    background-color:rgba(41, 41, 41, 0.733);
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+}
+
+.heroContainer img {
+    border-radius: 3px;
+}
+
+.weatherContainer {
+    text-align: center;
+}
+
+/* Styles for Discover Page */
+.gallery {
+    width: 100%;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.gallery figure {
+    width: 800px;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+.demographics {
+    text-align: left;
+    width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

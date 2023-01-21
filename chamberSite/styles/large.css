@@ -1,0 +1,88 @@
+@media (min-width: 70rem) {
+
+    .indexMain {
+        grid-template-columns: 1fr 3fr 1fr;
+        margin-top: 2.2rem;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        background-color: #393548;
+    }
+
+    .navigation li {
+        display: block;
+        margin: 0 5rem;
+
+    }
+
+    .navigation a {
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 0.75rem 1rem;
+        border-radius: 2px;
+        padding-right: 0;
+    }
+
+    .navigation {
+        margin: auto;
+        flex-direction: row;
+        padding-bottom: 0.5rem;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+
+    .menuButton {
+        display: none;
+    }
+
+    .mainMargin {
+        margin-top: 2.2rem;
+    }
+
+    /* Properties for Main grid */
+    .eventContainer {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .weatherContainer {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .joinContainer {
+        display: block;
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .heroContainer {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+    }
+
+    .newsContainer {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+
+    .spotlightContainer {
+        grid-column: 3 / 4;
+        grid-row: 1 / 4;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    /* Properties for Discovery Page */
+    .gallery figure img:hover {
+        box-shadow: 0 0 30px #333;
+        transition: 0.3s;
+    }
+    
+}
